@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <titulo_site>Project Record</titulo_site>
+    <meta>
+        <identificador>DAW_MEI_2018</identificador>
+        <titulo>Trabalho de Casa - Terceira semana de aulas</titulo>
+        <data_inicio>2-10-2018</data_inicio>
+        <data_fim>09-10-2018</data_fim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>António Manuel de Melo Castanheira</nome>
+            <email>pg38408@alunos.uminho.pt</email>
+            <identificador>DAW_MEI_2018</identificador>
+            <website>https://github.com/Parakeet37/DWeb</website>
+        </membro>
+    </equipa>
+    <resumo>
+        <paragrafo>
+            Este trabalho contemplou a criação do repositório no GitHub (cujo link se encontra acima) e ainda a construção de um pequeno servidor em NodeJS para servirr de backend a um site.
+        </paragrafo>
+        <paragrafo>
+            Esse site foi gerado automaticamente usando um schema em XSL.
+        </paragrafo>
+    </resumo>
+    <resultados>
+        <resultado>
+            <nome>Manifesto (XML)</nome>
+            <url>manifesto-t4.xml</url>
+        </resultado>
+        <resultado>
+            <nome>Manifesto (HTML)</nome>
+            <url>manifesto-t4.html</url>
+        </resultado>
+    </resultados>
+</manifesto>
+

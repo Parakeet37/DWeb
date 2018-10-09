@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT matriculas (estado, pai, codigo, titulo, descritivo_classe, contexto_avaliacao, decisoes_avaliacao) >
+<!ELEMENT estado (#PCDATA) >
+<!ELEMENT pai (#PCDATA) >
+<!ELEMENT codigo (#PCDATA) >
+<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT descritivo_classe (descricao, notas_aplicacao, exemplo_nota, notas_exclusao, termos_indice) >
+<!ELEMENT descricao (#PCDATA) >
+<!ELEMENT notas_aplicacao (nota)+ >
+<!ELEMENT exemplo_nota (#PCDATA) >
+<!ELEMENT notas_exclusao (nota)+ >
+<!ELEMENT termos_indice (termo)+ >
+<!ELEMENT termo (#PCDATA) >
+<!ELEMENT nota (#PCDATA) >
+<!ELEMENT contexto_avaliacao (tipo_processo, processo_transversal, donos, tipo_intervencao_participantes, processos_relacionados, legislacao    ) >
+<!ELEMENT tipo_processo (#PCDATA) >
+<!ELEMENT processo_transversal (#PCDATA) >
+<!ELEMENT donos (dono)+ >
+<!ELEMENT dono (#PCDATA) >
+<!ELEMENT tipo_intervencao_participantes (comunicar, iniciar) >
+<!ELEMENT comunicar (#PCDATA) >
+<!ELEMENT iniciar (#PCDATA) >
+<!ELEMENT processos_relacionados (antecessor_de, sintese_de, sintetizado_por, sucessor_de, suplemento_de, suplemento_para) >
+<!ELEMENT antecessor_de (antecessor)* >
+<!ELEMENT antecessor (#PCDATA) >
+<!ELEMENT sintese_de (sintese)* >
+<!ELEMENT sintese (#PCDATA) >
+<!ELEMENT sintetizado_por (sintetizado)* >
+<!ELEMENT sintetizado (#PCDATA) >
+<!ELEMENT sucessor_de (sucessor)* >
+<!ELEMENT sucessor (#PCDATA) >
+<!ELEMENT suplemento_de (suplemento)* >
+<!ELEMENT suplemento (#PCDATA) >
+<!ELEMENT suplemento_para (suplemento)* >
+<!ELEMENT suplementar (#PCDATA) >
+<!ELEMENT legislacao (dl|portaria)* >
+<!ELEMENT dl (#PCDATA) >
+<!ELEMENT portaria (#PCDATA) >
+<!ELEMENT decisoes_avaliacao (prazo_conservacao_administrativa, destino_final)>
+<!ELEMENT prazo_conservacao_administrativa (prazo, forma_contagem, justificacao) >
+<!ELEMENT prazo (#PCDATA) >
+<!ELEMENT forma_contagem (#PCDATA) >
+<!ELEMENT justificacao (criterio_legal, criterio_utilidade_administrativa, criterio_densidade_informacional) >
+<!ELEMENT criterio_legal (#PCDATA) >
+<!ELEMENT criterio_utilidade_administrativa (#PCDATA) >
+<!ELEMENT criterio_densidade_informacional (#PCDATA) >
+<!ELEMENT destino_final (destino, justificacao) >
+<!ELEMENT destino (#PCDATA) >

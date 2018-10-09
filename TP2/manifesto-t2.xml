@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifesto>
+    <titulo_site>Project Record</titulo_site>
+    <meta>
+        <identificador>DAW_MEI_2018</identificador>
+        <titulo>Trabalho de Casa - Segunda semana de aulas</titulo>
+        <data_inicio>25-09-2018</data_inicio>
+        <data_fim>02-10-2018</data_fim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>António Manuel de Melo Castanheira</nome>
+            <email>pg38408@alunos.uminho.pt</email>
+            <identificador>DAW_MEI_2018</identificador>
+        </membro>
+    </equipa>
+    <resumo>
+        <paragrafo>
+            Este trabalho contemplou o desenvolvimento de um schema para verificar a correção de um ficheiro XML, através de um <bold>Document Type Definition.</bold>
+        </paragrafo>
+        <paragrafo>
+            Para além disso também contemplou o uso de <bold>XSL</bold> para criação automática do manifesto semanal do trabalho semanal da cadeira.
+        </paragrafo>
+    </resumo>
+    <resultados>
+        <resultado>
+            <nome>Manifesto (XML)</nome>
+            <url></url>
+        </resultado>
+        <resultado>
+            <nome>Manifesto (DTD)</nome>
+            <url></url>
+        </resultado>
+        <resultado>
+            <nome>PN (DTD)</nome>
+            <url></url>
+        </resultado>
+        <resultado>
+            <nome>Manifesto (XSL)</nome>
+            <url></url>
+        </resultado>
+        <resultado>
+            <nome>Manifesto (HTML)</nome>
+            <url></url>
+        </resultado>
+    </resultados>
+</manifesto>
+
