@@ -123,7 +123,7 @@
     </xsl:template>
     
     <xsl:template match="email">
-        <a href="mailto:{email}">
+        <a href="http://mailto:{.}">
             <xsl:value-of select="."/>
             <br/>
         </a>
@@ -133,4 +133,10 @@
         <img src="{foto}"/>
     </xsl:template>
     
+    <xsl:template match="website">
+        <a href="{.}">
+            <xsl:value-of select="."/>
+            <br/>
+        </a>
+    </xsl:template>
 </xsl:stylesheet>
