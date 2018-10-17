@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Trabalho de casa da semana nº 5",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "António Castanheira",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}
