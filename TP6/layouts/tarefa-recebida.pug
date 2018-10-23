@@ -1,0 +1,25 @@
+extends layout
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Tarefa Recebida
+            .w3-container
+                table.w3-table-all
+                    tr
+                        th Data de registo
+                        td= tarefa.data_registo
+                    tr
+                        th Prazo de conclusão
+                        td= tarefa.prazo
+                    tr
+                        th Descrição
+                        td= tarefa.descricao
+                    tr
+                        th Tipo de tarefa
+                        td= tarefa.tipo
+                .w3-container
+                    a.w3-btn.w3-blue(href="http://localhost:5000/") Voltar à página inicial
+                    a.w3-btn.w3-blue(href="http://localhost:5000/regista") Criar nova tarefa
+            footer.w3-container.w3-teal
+                address Gerado por FormApp
