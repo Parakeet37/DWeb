@@ -1,0 +1,21 @@
+extends layout
+block corpo
+    .w3-container.w3-margin
+        .w3-card-4
+            h3.w3-margin Upload de um ficheiro
+            form.w3-container(action="/" method="POST" enctype="multipart/form-data")
+                label(for="ficheiro")
+                    b Ficheiro
+                input.w3-input.w3-border.w3-light-grey(type="file", name="ficheiro")
+                br
+                input.w3-btn.w3-blue-grey(type="submit" value="Enviar")
+            br
+    .w3-container.w3-margin
+        if ficheiros.length
+            table.w3-table-all.w3-centered.w3-hoverable.w3-card-4
+                tr.w3-teal
+                    th Nome do ficheiro
+                - for (var i=0; i<ficheiros.length; i++)
+                    tr
+                        td
+                            a(id=ficheiros[i].nome target="_newtab" href='http://localhost:5000/'+ficheiros[i].nome)= ficheiros[i].nome
